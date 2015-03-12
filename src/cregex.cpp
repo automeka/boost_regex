@@ -19,11 +19,14 @@
 
 #define BOOST_REGEX_SOURCE
 
+#include <boost/config.hpp>
 #include <boost/regex.hpp>
 #include <boost/cregex.hpp>
 #if !defined(BOOST_NO_STD_STRING)
 #include <map>
 #include <list>
+#include <vector>
+#include <cstring>
 #include <boost/regex/v4/fileiter.hpp>
 typedef boost::match_flag_type match_flag_type;
 #include <cstdio>

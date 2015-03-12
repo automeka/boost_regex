@@ -22,6 +22,7 @@
 #include <boost/config.hpp>
 #include <boost/detail/workaround.hpp>
 #include "internals.hpp"
+#include <cstring>
 
 #if !BOOST_WORKAROUND(__BORLANDC__, < 0x560)
 

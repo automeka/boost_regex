@@ -23,12 +23,15 @@
 #include <climits>
 #include <stdexcept>
 #include <string>
+#include <list>
 #include <boost/throw_exception.hpp>
 #include <boost/regex/v4/fileiter.hpp>
 #include <boost/regex/v4/regex_workaround.hpp>
 #include <boost/regex/pattern_except.hpp>
 
 #include <cstdio>
+#include <cstring>
+#include <dirent.h>
 #if defined(BOOST_NO_STDC_NAMESPACE)
 namespace std{
    using ::sprintf;

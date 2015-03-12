@@ -18,6 +18,7 @@
 
 #define BOOST_REGEX_SOURCE
 
+#include <boost/config.hpp>
 #include <boost/regex/config.hpp>
 
 #ifndef BOOST_NO_WREGEX

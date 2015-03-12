@@ -20,6 +20,7 @@
 
 #include <boost/config.hpp>
 #include <cstdio>
+#include <cstring>
 #include <boost/regex.hpp>
 #include <boost/cregex.hpp>
 

@@ -21,6 +21,8 @@
 #ifndef BOOST_NO_STD_LOCALE
 #include <boost/regex/regex_traits.hpp>
 #include <boost/regex/pattern_except.hpp>
+#include <cstring>
+#include <locale>
 
 #ifdef BOOST_NO_STDC_NAMESPACE
 namespace std{

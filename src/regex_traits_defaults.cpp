@@ -17,6 +17,7 @@
   */
 
 #define BOOST_REGEX_SOURCE
+#include <boost/config.hpp>
 #include <boost/regex/regex_traits.hpp>
 
 #include <cctype>
